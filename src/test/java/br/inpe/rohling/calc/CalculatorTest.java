@@ -23,7 +23,7 @@ public class CalculatorTest extends TestCase implements IConstantes  {
 		String resultado = null;  
 		String nota = null; 
 		try{
-			assertEquals(6, cal.sum(3, 5));	
+			assertEquals(8, cal.sum(3, 5));	
 			resultado = TestLinkAPIResults.TEST_PASSED;  
 		}catch (AssertionError e) {  
 		    resultado = TestLinkAPIResults.TEST_FAILED;  
